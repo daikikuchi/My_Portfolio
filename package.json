@@ -1,0 +1,23 @@
+{
+  "name": "responsive-images",
+  "version": "1.0.0",
+  "description": "create responsive-images",
+  "keywords": [
+    "responsive-images"
+  ],
+  "author": "Dai kikuchi",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-prettify": "^0.4.0",
+    "grunt-readme": "^0.4.5",
+    "grunt-responsive-images": "^0.1.9"
+  },
+  "dependencies": {
+    "grunt-responsive-images": "^0.1.6"
+  }
+}
