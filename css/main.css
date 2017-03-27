@@ -1,7 +1,7 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #2d3c49;
-    font-weight: 300;
+    /*font-weight: 300;*/
 }
 
 hr {
@@ -17,9 +17,6 @@ ul {
     margin-top: 30px;
 }
 
-.header-logo {
-    margin-top: 15px;
-}
 
 .myname {
     font-size: 50px;
@@ -42,6 +39,12 @@ ul {
 
 #about-me {
     margin-top: 5px;
+    font-weight: bold;
+}
+
+.detail {
+color:#66bbff;
+font-weight:400;
 }
 
 
@@ -93,23 +96,16 @@ ul {
     color: #DC143C;
 }
 
-/
-
-/*h2.mywork {
-    color: #7d97ad;
-    font-family: 'Varela Round', sans-serif;
-    font-weight: lighter;
-    padding-top: 8px;
-}*/
 
 .worktext {
     color: #2d3c49;
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-weight: normal;
 }
 
 .img-responsive {
     cursor: pointer;
+    border: 1px solid #7d97ad;
 }
 
 .img-responsive:hover {
@@ -125,9 +121,20 @@ div.url a:hover {
     opacity: 0.8;
 }
 
+.modal-title {
+text-align:center;
+}
+
 div.modal-body p {
     font-size: 1.5em;
     margin-top:10px;
+    text-align:center;
+}
+
+.img-responsive {
+
+margin:0 auto;
+
 }
 
 .footerrow {
