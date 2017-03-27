@@ -2,6 +2,8 @@
 
 This project is to develop a responsive website that will display images, descriptions and links to each of the portfolio projects I will complete throughout the course of Udacity's Nanodegree program.
 
+You can view it live here: https://myportfoliodaikikuchi.appspot.com/
+
 All content is responsive and displays on all display sizes. This includes:
 
 - Desktop
