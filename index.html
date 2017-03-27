@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -24,45 +24,48 @@
                 <img class="header-logo" src="images/logo.svg" alt="Logo">
                 <!-- <img class="header-logo"src="http://placehold.it/100x100"> -->
             </div>
+
             <div class="col-md-6 text-right text-uppercase">
                 <h1 class="myname">Dai Kikuchi</h1>
                 <h4 class="header-title">Japanese_Full_Stack_Engineer</h4>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-12">
                 <hr class="border">
                 <nav class="nav-menu">
                     <ul class="nav-bundle">
                         <li class="nav-item" id="toggle"><a href="#">About</a></li>
-                        <li class="nav-item"><a href="https://www.facebook.com/">Facebook</a></li>
-                        <li class="nav-item"><a href="https://www.linkedin.com/in/kikuchi-dai-12773537/">Linkedin</a></li>
-                        <li class="nav-item"><a href="#">Blog</a></li>
+                        <li class="nav-item"><a href="https://www.udacity.com/" target="_blank">Facebook</a></li>
+                        <li class="nav-item"><a href="https://www.linkedin.com/in/kikuchi-dai-12773537/" target="_blank">Linkedin</a></li>
+                        <li class="nav-item"><a href="https://github.com/daikikuchi" target="_blank">Github</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-    </header>
+   </header>
     <!-- Create main part with Bootstrap 3 -->
-    <main>
-        <div class="container">
+    <main class="container">
             <div class="row">
                 <div class="col-md-12">
                     <section id="myself">
                         <article id="description">
                             <h2 id="about-me">About Dai Kikuchi</h2>
-                            <p>Living in Christchurch, New zealand, Experienced in Sales & Marketing, Worked in Three countries
-                                <p>Work Attitudes: Hard Working, Willing to Learn, Responsible, Passionate </p>
-                                <p>IT Background: Studing on Udacity, Full Stack Web Developer, Python Developer</p>
+                            <p class="detail">Living in Christchurch, New zealand, Experienced in Sales & Marketing, Worked in Three countries
+                                <p class="detail">Work Attitudes: Hard Working, Willing to Learn, Responsible, Passionate </p>
+                                <p class="detail">IT Background: Studying on Udacity, Full Stack Web Developer, Python Developer</p>
                         </article>
                     </section>
                 </div>
             </div>
+            
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="mywork">Featured Work</h2>
                 </div>
             </div>
+           
             <div class="row text-center">
                 <div class="col-md-4 url">
                     <!-- nexus 5 needs smaller image, for other devices us 380px -->
@@ -70,35 +73,40 @@
                         <source media="(max-width: 360px)" srcset="images/poster-330_small.jpg" />
                         <img class="img-responsive" src="images/poster-380_s.jpg" alt="Movie Posters" data-toggle="modal" data-target="#project1">
                     </picture>
+                    
                     <h2 class="worktext">Movie Trailer</h2>
-                    <a href="https://github.com/daikikuchi/movies_trailer_website">https://github.com/daikikuchi/movies_trailer_website</a>
+                    <a href="https://github.com/daikikuchi/movies_trailer_website" target="_blank">https://github.com/daikikuchi/movies_trailer_website</a>
                 </div>
+               
                 <div class="col-md-4 url">
                     <!-- nexus 5 needs smaller image, for other devices us 380px -->
                     <picture>
-                        <source media="(max-width: 360px)" srcset="images/poster2-330_small.jpg" />
-                        <img class="img-responsive" src="images/poster2-380_s.jpg" alt="Movie Posters" data-toggle="modal" data-target="#project2">
+                        <source media="(max-width: 360px)" srcset="images/blog-330.jpg" />
+                        <img class="img-responsive" src="images/blog-380.jpg" alt="Blog Image" data-toggle="modal" data-target="#project2">
                     </picture>
-                    <h2 class="worktext">Movie Trailer</h2>
-                    <a href="https://github.com/daikikuchi/movies_trailer_website">https://github.com/daikikuchi/movies_trailer_website</a>
+                    
+                    <h2 class="worktext">Multi User Blog</h2>
+                    <a href="https://github.com/daikikuchi/Multi-User-Blog" target="_blank">https://github.com/daikikuchi/Multi-User-Blog</a>
                 </div>
+                
                 <div class="col-md-4 url">
                     <!-- nexus 5 needs smaller image, for other devices us 380px -->
                     <picture>
-                        <source media="(max-width: 360px)" srcset="images/poster3-330_small.jpg" />
-                        <img class="img-responsive" src="images/poster3-380_s.jpg" alt="Movie Posters" data-toggle="modal" data-target="#project3">
+                        <source media="(max-width: 360px)" srcset="images/swiss-tournament-330.jpg" />
+                        <img class="img-responsive" src="images/swiss-tournament-380.jpg" alt="switzerland flag with background of mountains" data-toggle="modal" data-target="#project3">
                     </picture>
-                    <h2 class="worktext">Movie Trailer</h2>
-                    <a href="https://github.com/daikikuchi/movies_trailer_website">https://github.com/daikikuchi/movies_trailer_website</a>
+                    
+                    <h2 class="worktext">Swiss Tournament</h2>
+                    <a href="https://github.com/daikikuchi/Swiss-Tournament-Results" target="_blank">https://github.com/daikikuchi/Swiss-Tournament-Results</a>
                 </div>
             </div>
+            
             <div class="row">
                 <div class="col-md-12">
                     <hr class="border">
                 </div>
             </div>
-        </div>
-    </main>
+      </main>
     <!-- Create footer with Bootstrap 3 -->
     <footer class="container">
         <div class="row footerrow">
@@ -107,12 +115,13 @@
             </div>
         </div>
     </footer>
+    
     <!-- Create modals with Bootstrap 3 -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Movie Trailer Page</h4>
+                    <h3 class="modal-title" id="myModalLabel">Movie Trailer Page Project</h3>
                 </div>
                 <div class="modal-body">
                     <!-- nexus 5 needs smaller image, for other devices us 380px -->
@@ -120,7 +129,7 @@
                         <source media="(max-width: 360px)" srcset="images/poster-330_small.jpg" />
                         <img class="img-responsive" src="images/poster-380_s.jpg" alt="Movie Posters">
                     </picture>
-                    <p>A website to introduce my favorite movies with Movie poster images and Official movie trailers.</p>
+                    <p>I wrote server-side code to store a list of my favorite movies, including box art imagery and a movie trailer URL. I serve this data as a web page allowing visitors to review their movies and watch the trailers.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -128,19 +137,20 @@
             </div>
         </div>
     </div>
+    
     <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header" id="myModalLabel1">
-                    <h4 class="modal-title">Movie Trailer Page</h4>
+                    <h3 class="modal-title">Multi User Blog Project</h3>
                 </div>
                 <div class="modal-body">
                     <!-- nexus 5 needs smaller image, for other devices us 380px -->
                     <picture>
-                        <source media="(max-width: 360px)" srcset="images/poster2-330_small.jpg" />
-                        <img class="img-responsive" src="images/poster2-380_s.jpg" alt="Movie Posters">
+                        <source media="(max-width: 360px)" srcset="images/blog-330.jpg" />
+                        <img class="img-responsive" src="images/blog-380.jpg" alt="Blog Image">
                     </picture>
-                    <p>This was my second project in this class. I learned a lot about HTML and CSS.</p>
+                    <p>A multi user blog(along the lines of Medium) where users can sign in and post blog posts as well as 'Like' and 'Comment' on other posts made on the blog. </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -148,19 +158,20 @@
             </div>
         </div>
     </div>
+   
     <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+                    <h3 class="modal-title" id="myModalLabel2">Swiss Tournament Project</h3>
                 </div>
                 <div class="modal-body">
                     <!-- nexus 5 needs smaller image, for other devices us 380px -->
                     <picture>
-                        <source media="(max-width: 360px)" srcset="images/poster-330_small.jpg" />
-                        <img class="img-responsive" src="images/poster-380_s.jpg" alt="Movie Posters">
+                        <source media="(max-width: 360px)" srcset="images/swiss-tournament-330.jpg" />
+                        <img class="img-responsive" src="images/swiss-tournament-330.jpg" alt="switzerland flag with background of mountains">
                     </picture>
-                    <p>This was my second project in this class. I learned a lot about HTML and CSS.</p>
+                    <p>A database schema using PostgreSQL to store the game matches between players. I wrote code to query this data and determine the winners of various games.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -168,7 +179,8 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="js/aboutme.js">
+   
+    <script  src="js/aboutme.js">
     </script>
 </body>
 
